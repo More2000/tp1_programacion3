@@ -4,6 +4,12 @@ const mongoose = require("mongoose");
 const swaggerUi = require('swagger-ui-express')
 const swaggerDocument = require('./swagger-output.json');
 
+//
+const conexiónDB = require('./src/utils/db');
+const usuario = require('./src/models/user');
+const empleado = require('./src/models/empleado');
+//
+
 // const swaggerUi = require('swagger-ui-express')
 // const swaggerDocument = require('./swagger-output.json');
 
