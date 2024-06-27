@@ -13,7 +13,8 @@ const outputFile = '../../swagger-output.json';
 const routes = [
   
 
-  "src/modules/user/user.routes.js",
+  "../modules/user/user.routes",
+  "../modules/empleado/empleado.routes"
 ];
 
 swaggerAutogen(outputFile, routes, doc);
